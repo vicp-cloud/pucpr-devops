@@ -1,4 +1,4 @@
 # Projeto DevOps PUC PR
 # VICTOR DE GODOY PAESE
 # 2025
-# Somativa 2.
+# Somativa 2
