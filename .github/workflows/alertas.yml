@@ -2,7 +2,7 @@ name: Alertas Discord
 on:
   push:
     branches:
-      - main
+      - Inicio
 jobs:
   notify:
     runs-on: ubuntu-latest
@@ -11,5 +11,5 @@ jobs:
         run: |
           curl -H "Content-Type: application/json" \
           -X POST \
-          -d '{"content": "DEVOPS PUC PR - VICTOR DE GODOY PAESE - SOMATIVA 2 !"}' \
+          -d '{"content": "DEVOPS PUC PR - SOMATIVA 2 !"}' \
           ${{ secrets.DISCORD_WEBHOOK }}
